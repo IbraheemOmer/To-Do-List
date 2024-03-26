@@ -4,7 +4,8 @@ body {
   margin: 0;
   background-color: #f0f0f0; /* Adjust the background color as needed */
   font-family: "Roboto", sans-serif;
-  background: url("../public/images/bg.jpg") no-repeat center center fixed;
+  background: url("../public/images/91352.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 body {

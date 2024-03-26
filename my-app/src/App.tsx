@@ -77,7 +77,7 @@ function AddForm({ onAddTodo }: { onAddTodo: (todo: Todo) => void }) {
   }
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit} onClick={handleSubmit}>
       <input
         type="text"
         value={addtodo}
@@ -159,10 +159,16 @@ function TodoItem({
   );
 }
 
-function Button({ children, onClick }: { children: React.ReactNode; onClick?: () => void; }) {
+function Button({
+  children,
+  onClick,
+}: {
+  children: React.ReactNode;
+  onClick?: () => void;
+}) {
   return (
     <button type="button" className="button" onClick={onClick}>
       {children}
     </button>
-  );
+  );
 }

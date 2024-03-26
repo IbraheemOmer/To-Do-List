@@ -41,7 +41,7 @@ export default function App() {
 
   return (
     <div className="content">
-      <h1>Todo List</h1>
+      <h1>To Do List</h1>
       <AddForm onAddTodo={handleAddTodo} />
       <TodoList
         todos={todos}
